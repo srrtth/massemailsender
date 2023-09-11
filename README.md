@@ -1,6 +1,6 @@
 # Automated Email Sender with Python and Pandas
 
-This Python script allows you to send custom emails to multiple companies listed in an Excel file, along with attaching your resume. It uses the Pandas library to read company details from the Excel file and the smtplib library to send emails through your email provider. Make sure you have the required libraries installed before running the script.
+This Python script allows you to send custom emails to multiple companies listed in an Excel file, along with attaching a file (here resume). It uses the Pandas library to read company details from the Excel file and the smtplib library to send emails through your email provider. Make sure you have the required libraries installed before running the script.
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ This Python script allows you to send custom emails to multiple companies listed
 
 ## How to Use
 
-1. Save the list of companies and their respective email addresses in an Excel file named `companies.xlsx`. The Excel file should have two columns: `Company` and `Email`.
+1. Save the list of respective email addresses in an Excel file named `companies.xlsx`. The Excel file should have two columns: `Company` and `Email`.
 2. Replace the variables `sender_email` and `sender_password` with your email credentials.
 3. Customize the email template in the `message_template` variable to fit your needs. You can use placeholders like `{company_name}` that will be replaced with the actual company name while sending emails.
 4. Replace `resume.pdf` with the path to your actual resume file in the variable `resume_file`.
